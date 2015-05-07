@@ -1,0 +1,17 @@
+{
+  "name": "portafolio",
+  "version": "0.0.1",
+  "authors": [
+    "Ricardo Rojas <reddrum7@gmail.com>"
+  ],
+  "description": "Personal portfolio and blog",
+  "license": "MIT",
+  "homepage": "ricardorojass.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
