@@ -9262,97 +9262,98 @@ body {
 
 /* line 32, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .main-nav {
+  background: #333;
   border-bottom: 3px solid orange;
   border-radius: 0; }
 
-/* line 36, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 37, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 #nav {
   width: 100%;
   position: static;
   top: -32px; }
 
-/* line 42, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 43, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 #nav.affix {
   position: fixed;
   top: 0;
   z-index: 10;
   -webkit-transition: all 0.6s ease-in-out; }
 
-/* line 48, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 49, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .navbar-inverse .navbar-nav li a {
   color: white;
   font-size: 15px;
   font-weight: 800;
   letter-spacing: 0.5px; }
 
-/* line 54, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 55, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .navbar {
   margin-bottom: 0; }
 
-/* line 57, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 58, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .header-text {
   text-shadow: 1px 1px 1px #000; }
 
-/* line 60, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 61, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .header-text h2 {
   color: white;
   font-size: 35px;
   font-weight: 800; }
   @media screen and (max-width: 1199px) {
-    /* line 60, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+    /* line 61, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
     .header-text h2 {
       font-size: 32px; } }
   @media screen and (max-width: 991px) {
-    /* line 60, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+    /* line 61, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
     .header-text h2 {
       font-size: 26px; } }
   @media screen and (max-width: 767px) {
-    /* line 60, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+    /* line 61, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
     .header-text h2 {
       font-size: 18px; } }
 
-/* line 71, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 72, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .header-text h1 {
   color: orange;
   font-size: 45px;
   font-weight: 800; }
   @media screen and (max-width: 1199px) {
-    /* line 71, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+    /* line 72, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
     .header-text h1 {
       font-size: 42px; } }
   @media screen and (max-width: 991px) {
-    /* line 71, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+    /* line 72, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
     .header-text h1 {
       font-size: 35px; } }
   @media screen and (max-width: 767px) {
-    /* line 71, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+    /* line 72, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
     .header-text h1 {
       font-size: 23px; } }
 
-/* line 82, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 83, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .home-content {
   padding-top: 115px;
   text-align: center; }
 
-/* line 86, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 87, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .home-content h2 {
   font-size: 27px;
   font-weight: bold;
   text-transform: uppercase; }
 
-/* line 91, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 92, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .home-content h3 {
   color: #5a5a5a;
   font-size: 20px;
   font-weight: 100;
   padding: 20px; }
 
-/* line 97, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 98, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .services {
   margin-top: 4em;
   margin-bottom: 4em; }
 
-/* line 101, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 102, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .services .box {
   background: #ededed;
   margin-right: 30px;
@@ -9360,31 +9361,31 @@ body {
   position: relative;
   width: 360px; }
   @media screen and (max-width: 1199px) {
-    /* line 101, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+    /* line 102, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
     .services .box {
       margin-right: 15px;
       width: 308px; } }
   @media screen and (max-width: 991px) {
-    /* line 101, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+    /* line 102, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
     .services .box {
       margin-right: 10px;
       width: 240px; } }
   @media screen and (max-width: 767px) {
-    /* line 101, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+    /* line 102, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
     .services .box {
       width: 100%;
       margin-bottom: 84px; } }
 
-/* line 118, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 119, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .services .box .fa {
   font-size: 11em;
   padding: 30px; }
   @media screen and (max-width: 767px) {
-    /* line 118, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+    /* line 119, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
     .services .box .fa {
       font-size: 8em; } }
 
-/* line 124, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 125, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .services .bt {
   margin-top: 18px;
   margin-bottom: 10px;
@@ -9392,53 +9393,53 @@ body {
   position: absolute;
   width: 100%; }
 
-/* line 131, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 132, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .services .bt a {
   color: white;
   font-size: initial;
   font-weight: bold; }
 
-/* line 136, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 137, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .services .bt.bt-desarrollo {
   background: #00e7ad; }
 
-/* line 139, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 140, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .services .bt.bt-diseno {
   background: #4183D7; }
 
-/* line 142, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 143, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .services .bt.bt-formacion {
   background: orange; }
 
-/* line 146, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 147, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .home-about {
   background: #333;
   margin-top: 2em;
   padding: 60px;
   position: relative; }
 
-/* line 152, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 153, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .home-about .avatar {
   background: url(../images/avatar-desktop-d4797dff.jpg) no-repeat;
   min-height: 190px;
   padding: 0;
   width: 195px; }
   @media screen and (max-width: 767px) {
-    /* line 152, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+    /* line 153, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
     .home-about .avatar {
       margin: auto; } }
 
-/* line 160, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 161, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .home-about .descripcion {
   margin: 0 0 10px 30px; }
   @media screen and (max-width: 767px) {
-    /* line 160, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+    /* line 161, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
     .home-about .descripcion {
       margin-left: 10px;
       margin-top: 25px;
       text-align: center; } }
 
-/* line 168, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 169, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .home-about h2 {
   color: #00e7ad;
   font-size: 22px;
@@ -9446,18 +9447,18 @@ body {
   margin: 0;
   text-transform: uppercase; }
 
-/* line 175, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 176, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .home-about p {
   color: white;
   font-weight: 100;
   margin-top: 20px;
   line-height: 1.5em; }
 
-/* line 181, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 182, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .home-about .down-triangle {
   border-top: 20px solid white; }
 
-/* line 184, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 185, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .down-triangle {
   position: absolute;
   left: 50%;
@@ -9469,10 +9470,9 @@ body {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent; }
 
-/* line 196, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 197, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .home-projects {
-  position: relative;
-  text-align: center; }
+  position: relative; }
 
 /* line 200, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 .home-projects .down-triangle {
@@ -9483,33 +9483,24 @@ body {
   font-size: 27px;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
   padding: 3em 0 2em 0; }
 
-/* line 209, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
-.home-projects .container-projects .project {
-  background: #eee;
-  margin-right: 30px; }
+/* line 210, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+.home-projects header {
+  font-size: 24px;
+  margin-bottom: 14px;
+  text-transform: uppercase; }
 
-/* line 213, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
-.home-projects .container-projects .project {
-  margin-right: 30px; }
+/* line 215, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+.home-projects .projects .box {
+  margin-top: 80px; }
 
-/* line 216, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
-.home-projects .container-projects .project1 {
-  background: url(../images/sgcloud-thumb-2ebc4f45.png) no-repeat;
-  background-position: center;
-  height: 277px; }
-
-/* line 221, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
-.home-projects .container-projects .project2 {
-  background: url(../images/project2-thumb-5933ec9d.png) no-repeat;
-  height: 277px; }
-
-/* line 226, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 220, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 footer {
-  background: #F4F4F4;
-  border-top: 1px solid #ddd;
-  font-size: 11px;
+  background: #333;
+  color: #B5B5B5;
+  font-size: 13px;
   font-weight: 100;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  padding: 20px 0;
+  margin-top: 80px; }
