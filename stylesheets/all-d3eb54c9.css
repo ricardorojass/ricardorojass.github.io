@@ -9587,12 +9587,17 @@ footer {
   padding: 12px 30px;
   margin-left: 50px;
   text-decoration: none; }
+  /* line 303, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+  #home-contact .mail:hover {
+    background: #fff;
+    color: #00e7ad;
+    text-shadow: transparent; }
   @media screen and (max-width: 767px) {
     /* line 296, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
     #home-contact .mail {
       margin-left: 0; } }
 
-/* line 306, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
+/* line 310, /Users/Ricardo/Projects/ricardorojass.github.io/source/stylesheets/all.sass */
 #home-contact .glyphicon-envelope {
   margin-right: 10px;
   top: 2px; }
