@@ -7,10 +7,10 @@
     <meta content='width=device-width, initial-scale=1' name='viewport'>
     <!-- Use title if it's in the page YAML frontmatter -->
     <title>Ricardo Rojas</title>
-    <link href="stylesheets/all-b8600a5e.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/all-fcacbeed.css" rel="stylesheet" type="text/css" />
     <script src="javascripts/all-4ee758c6.js" type="text/javascript"></script>
   </head>
-  <body class='page_classes'>
+  <body class='page_classes' data-spy='scroll' data-target='.scrollspy'>
     <div id='header'>
       <div class='container'>
         <div class='row'>
@@ -21,7 +21,7 @@
         </div>
       </div>
     </div>
-    <nav class='navbar navbar-inverse navbar-static-top main-nav' data-offset-top='650' data-spy='affix' id='nav'>
+    <nav class='navbar navbar-inverse navbar-static-top scrollspy main-nav' data-offset-top='650' data-spy='affix' id='nav'>
       <div class='container'>
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class='navbar'>
@@ -36,13 +36,16 @@
           <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
             <ul class='nav navbar-nav navbar-right'>
               <li>
-                <a href="/#">Con&oacuteceme</a>
+                <a href="/#home-about">Con&oacuteceme</a>
               </li>
               <li>
-                <a href="/#">Proyectos</a>
+                <a href="/#home-projects">Proyectos</a>
               </li>
               <li>
-                <a class='nav-call-action' href=''>Cont&aacutecteme</a>
+                <a href="/#home-skills">Skills</a>
+              </li>
+              <li>
+                <a class='nav-call-action' href='/#home-contact'>Cont&aacutecteme</a>
               </li>
             </ul>
           </div>
@@ -51,7 +54,7 @@
       </div>
       <!-- /.container -->
     </nav>
-    <div class='home-content'>
+    <div id='home-content'>
       <div class='container'>
         <div class='row'>
           <h2>Permiteme ayudarte con tu proyecto</h2>
@@ -87,28 +90,27 @@
         </div>
       </div>
     </div>
-    <div class='home-about'>
-      <div class='down-triangle'></div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-sm-1'></div>
-          <div class='col-sm-2 avatar'></div>
-          <div class='col-sm-7 descripcion'>
-            <h2>Quien soy</h2>
-            <p>
-              Desarrollador Ruby on Rails interesado en explorar diferentes campos
-              a través de la programación donde pueda aportar mis conocimientos
-              y seguir aprendiendo.
-            </p>
-            <p>
-              Capacidades: <strong>Ruby</strong>, <strong>Ruby on Rails</strong>, <strong>JavaScript</strong>, <strong>Haml</strong>, <strong>Sass</strong>, <strong>Middleman</strong>, <strong>Git</strong>, <strong>PostgreSQL</strong>, <strong>Heroku</strong>, <strong>AWS</strong>.
-            </p>
+    <div class='container-padding'>
+      <div id='home-about'>
+        <div class='down-triangle'></div>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-sm-1'></div>
+            <div class='col-sm-2 avatar'></div>
+            <div class='col-sm-7 descripcion'>
+              <h2>Quien soy</h2>
+              <p>
+                Desarrollador Ruby on Rails interesado en explorar diferentes campos
+                a través de la programación, donde pueda aportar mis conocimientos
+                y seguir aprendiendo.
+              </p>
+            </div>
+            <div class='com-md-2'></div>
           </div>
-          <div class='com-md-2'></div>
         </div>
       </div>
     </div>
-    <div class='home-projects'>
+    <div id='home-projects'>
       <div class='down-triangle'></div>
       <div class='projects-description'>
         <div class='container'>
@@ -220,6 +222,119 @@
                 Proyecto Personal
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container-padding'>
+      <div id='home-skills'>
+        <div class='down-triangle'></div>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-sm-10 col-sm-offset-1'>
+              <h2>My Skills</h2>
+              <p>
+                Si estas buscando un desarrollador full-stack con enfasis en
+                open-source y otras tecnologias, entonces podré ayudarte.
+                Estoy disponible para contrato remoto o local. Si usted me necesita
+                para el desarrollo, diseño, o incluso en la formación, de un vistazo
+                a mis habilidades y mire si encaja con su necesidad.
+              </p>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-sm-10 col-sm-offset-1'>
+              <h4>Desarrollo</h4>
+              <div class='col-sm-4 skill-box'>
+                <h5>Ruby / Rails</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='60' class='progress-bar' role='progressbar' style='width: 60%'></div>
+                </div>
+                <h5>Javascript</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='30' class='progress-bar' role='progressbar' style='width: 30%'></div>
+                </div>
+                <h5>PostgreSQL</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='40' class='progress-bar' role='progressbar' style='width: 40%'></div>
+                </div>
+              </div>
+              <div class='col-sm-4 skill-box'>
+                <h5>HTTP & REST APIs</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='80' class='progress-bar' role='progressbar' style='width: 80%'></div>
+                </div>
+                <h5>SCRUM</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='400' class='progress-bar' role='progressbar' style='width: 40%'></div>
+                </div>
+                <h5>Middleman</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='70' class='progress-bar' role='progressbar' style='width: 70%'></div>
+                </div>
+              </div>
+              <div class='col-sm-4 skill-box'>
+                <h5>Google Drive API</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='40' class='progress-bar' role='progressbar' style='width: 40%'></div>
+                </div>
+                <h5>Heroku</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='30' class='progress-bar' role='progressbar' style='width: 30%'></div>
+                </div>
+                <h5>Git</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='60' class='progress-bar' role='progressbar' style='width: 60%'></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-sm-10 col-sm-offset-1'>
+              <h4>Diseño</h4>
+              <div class='col-sm-4 skill-box'>
+                <h5>Bootstrap</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='60' class='progress-bar' role='progressbar' style='width: 60%'></div>
+                </div>
+                <h5>HTML / Haml</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='50' class='progress-bar' role='progressbar' style='width: 50%'></div>
+                </div>
+                <h5>CSS / Sass</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='40' class='progress-bar' role='progressbar' style='width: 40%'></div>
+                </div>
+              </div>
+              <div class='col-sm-4 skill-box'>
+                <h5>jQuery</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='30' class='progress-bar' role='progressbar' style='width: 30%'></div>
+                </div>
+                <h5>UX</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='20' class='progress-bar' role='progressbar' style='width: 20%'></div>
+                </div>
+                <h5>UI</h5>
+                <div class='progress'>
+                  <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='30' class='progress-bar' role='progressbar' style='width: 30%'></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id='home-contact'>
+      <div class='down-triangle'></div>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-sm-12 text-center'>
+            <h2>Contácteme para su proximo proyecto</h2>
+            <a class='mail' href='mailto:reddrum7@gmail.com'>
+              <span class='glyphicon glyphicon-envelope'></span>
+              E-MAIL
+            </a>
           </div>
         </div>
       </div>
